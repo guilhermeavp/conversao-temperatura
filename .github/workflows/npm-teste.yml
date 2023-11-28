@@ -7,8 +7,9 @@ on:
   release:
     types: [created]
 jobs:
-  build:
+  CI:
     runs-on: ubuntu-latest
+    
     steps:
       - uses: actions/setup-node@v3
         with:
